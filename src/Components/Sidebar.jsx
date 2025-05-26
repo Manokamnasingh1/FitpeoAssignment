@@ -20,14 +20,14 @@ export default function Sidebar() {
       <h3 className="sidebar-heading">General</h3>
       <ul className="sidebar-links">
         <li><a href="/dashboard"><MdOutlineDashboard /> <span>Dashboard</span></a></li>
-        <li><a href="#"><BiSpreadsheet /> <span>History</span></a></li>
-        <li><a href="#"><TbInvoice /> <span>Calendar</span></a></li>
-        <li><a href="#"><IoIosPeople /> <span>Appointments</span></a></li>
-        <li><a href="#"><MdOutlineDashboard /> <span>Statistics</span></a></li>
-        <li><a href="#"><BiSpreadsheet /> <span>Tests</span></a></li>
-        <li><a href="#"><IoIosPeople /> <span>Chat</span></a></li>
-        <li><a href="#"><TbInvoice /> <span>Support</span></a></li>
-        <li><a href="#"><IoSettingsOutline /> <span>Setting</span></a></li>
+        <li><a href="/dashboard"><BiSpreadsheet /> <span>History</span></a></li>
+        <li><a href="/dashboard"><TbInvoice /> <span>Calendar</span></a></li>
+        <li><a href="/dashboard"><IoIosPeople /> <span>Appointments</span></a></li>
+        <li><a href="/dashboard"><MdOutlineDashboard /> <span>Statistics</span></a></li>
+        <li><a href="/dashboard"><BiSpreadsheet /> <span>Tests</span></a></li>
+        <li><a href="/dashboard"><IoIosPeople /> <span>Chat</span></a></li>
+        <li><a href="/dashboard"><TbInvoice /> <span>Support</span></a></li>
+        <li><a href="/dashboard"><IoSettingsOutline /> <span>Setting</span></a></li>
       </ul>
     </aside>
   );
